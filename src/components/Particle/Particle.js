@@ -28,7 +28,7 @@ function Particle() {
           },
         particles: {
           number: {
-            value: 160,
+            value: 50,
             density: {
               enable: true,
               value_area: 800,
@@ -76,7 +76,7 @@ function Particle() {
           },
           move: {
             enable: true,
-            speed: 1,
+            speed: 5,
             direction: "none",
             random: true,
             straight: false,
