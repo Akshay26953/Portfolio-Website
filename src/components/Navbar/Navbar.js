@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
-// import { useEffect } from "react";
 
 function Navbar() {
   const [show, setShow] = useState();
