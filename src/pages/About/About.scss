@@ -1,0 +1,23 @@
+.containerAbout {
+    width: fit-content;
+    @media screen and (max-width: 1000px) {
+        width: 90%;
+    }
+    .para {
+        width: 800px;
+        text-align: center;
+        vertical-align: center;
+        line-height: 2;
+        @media screen and (max-width: 1000px) {
+            width: 90%;
+            margin: auto;
+        }
+        img {
+            width: 20px;
+        }
+
+    }
+    .mb {
+        margin-bottom: 50px;
+        }
+}

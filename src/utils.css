@@ -1,0 +1,66 @@
+.centerAll {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.centerX {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.tac {
+    text-align: center;
+}
+.heading {
+    margin: 20px 0;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+.subhead {
+    margin: 30px 0;
+    font-size: 30px;
+    text-align: center;
+}
+.para {
+    font-size: 18px;
+}
+.btn {
+    padding: 10px 15px;
+    border-radius: 10px;
+    /* background-color: rgb(182, 182, 182); */
+    color: black;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.spanExpand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(230, 230, 230);
+    border: 2px solid rgb(182, 182, 182);
+    box-shadow: 0px 0px 5px rgb(30, 30, 30);
+    cursor: pointer;
+}
+.spanExpand:hover {
+    border: 2px solid rgb(13, 141, 158);
+    box-shadow: 0px 0px 5px rgb(13, 141, 158);
+}
+
+
+@media screen and (max-width: 1000px) {
+    .subhead {
+        font-size: 20px;
+    }
+    .heading {
+        font-size: 25px;
+    }
+}
