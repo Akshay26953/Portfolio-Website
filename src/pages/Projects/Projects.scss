@@ -1,5 +1,8 @@
 .containerProject {
     width: 80%;
+    @media only screen and (max-width: 600px) {
+        width: 90%;
+    }
     .listItem{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
@@ -18,6 +21,7 @@
                 width: 100%;
                 height: 150px;
                 border-radius: 15px;
+                object-fit: cover;
                 cursor: pointer;
                 &:hover {
                         transition: all 0.25s ease;
