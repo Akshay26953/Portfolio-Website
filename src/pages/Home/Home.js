@@ -11,7 +11,7 @@ function Home() {
         <h1>AKSHAY KHARAT</h1>
         <div className="typing">
           <p>I</p>
-          <Typed strings={["am a Front End Developer", "buid Front End for Web"]} typeSpeed={100} backSpeed={50} loop />
+          <Typed strings={["am a Front End Developer ", "build Front End for Web "]} typeSpeed={70} backSpeed={30} loop />
         </div>
         <div className="btns">
           <Link to="/about">

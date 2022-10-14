@@ -8,7 +8,7 @@ function Skills() {
     <div className="skills centerX">
       <p className="title heading centerX">SKILLS</p>
       <p className="subhead centerX">
-        <Typed strings={["Never Stop Learning !", "Our skills are our strength..."]} typeSpeed={100} backSpeed={50} loop />
+        <Typed strings={["Never Stop Learning ! ", "Our skills are our strength... ", "Learn Today For Better Tomorrow... "]} typeSpeed={70} backSpeed={30} loop />
       </p>
       <div className="basicTech">
         <div className="spanExpand">
