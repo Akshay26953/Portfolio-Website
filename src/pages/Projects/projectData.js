@@ -75,7 +75,7 @@ const Data = [
     tech: ["html","css", "react", "javascript", "sass"],
     stack: "React FrontEnd",
     defaultImg: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
-    image: "../../../public/ProjectImages/myproject.png",
+    image: "./public/ProjectImages/myproject.png",
     // github: "https://github.com/Akshay26953/US-State-Data",
     link: "https://my-projects-5a53e.web.app/",
   },
